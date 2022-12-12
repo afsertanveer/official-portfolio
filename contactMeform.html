@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+    <link href="assets/css/style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="contact-hero">
+      <form
+        action="https://formspree.io/f/mgeqgpqg"
+        method="POST"
+        id="contact-form"
+      >
+        <div class="contact-message-icon">
+          <i class="bi bi-telegram"></i>
+          <span>Message</span>
+        </div>
+        <div id="contact-input-field">
+          <i class="bi bi-person">
+            <input type="text" placeholder="Name" name="name" required />
+          </i>
+        </div>
+        <div id="contact-input-field">
+          <i class="bi bi-envelope">
+            <input type="text" placeholder="Email" name="email" required />
+          </i>
+        </div>
+        <div id="contact-input-field">
+          <i class="bi bi-chat-right-dots"></i>
+          <textarea name="message" placeholder="Message" rows="10"></textarea>
+        </div>
+        <input type="submit" value="Send" class="email-btn" />
+      </form>
+    </div>
+  </body>
+</html>
