@@ -31,7 +31,9 @@ h5,
 h6 {
   font-family: "Raleway", sans-serif;
 }
-
+.card{
+  height: 750px !important;
+}
 /*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
@@ -1246,7 +1248,7 @@ section {
   justify-content: center;
 }
 form {
-  background-color: sandybrown;
+  background-color: gold;
   width: 500px;
   padding: 30px;
   font-size: 18px;
